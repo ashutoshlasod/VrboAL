@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingCVC" customModule="Vrbo" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnBoardingCVC" id="gTV-IL-0wX" customClass="OnBoardingCVC" customModule="Vrbo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="599"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="599"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Landing_3" translatesAutoresizingMaskIntoConstraints="NO" id="W08-dx-6aQ">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="479"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wlU-77-KWO">
+                        <rect key="frame" x="20" y="479" width="260" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Info you need, what you need" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqe-2x-xR0">
+                                <rect key="frame" x="0.0" y="0.0" width="260" height="32"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Pull up booking updates, messages from the owner, or get help from our team" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0L-ea-uGh">
+                                <rect key="frame" x="0.0" y="37" width="260" height="63"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="18"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="W08-dx-6aQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="C9d-pd-yes"/>
+                <constraint firstItem="wlU-77-KWO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="HIW-ks-ROt"/>
+                <constraint firstItem="W08-dx-6aQ" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.8" id="Te8-Dx-7ta"/>
+                <constraint firstAttribute="bottom" secondItem="wlU-77-KWO" secondAttribute="bottom" constant="20" id="Z1b-fo-A9j"/>
+                <constraint firstItem="W08-dx-6aQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mbl-jm-cgs"/>
+                <constraint firstAttribute="trailing" secondItem="W08-dx-6aQ" secondAttribute="trailing" id="oeN-W0-gaG"/>
+                <constraint firstItem="wlU-77-KWO" firstAttribute="top" secondItem="W08-dx-6aQ" secondAttribute="bottom" id="pKG-fe-5Bc"/>
+                <constraint firstAttribute="trailing" secondItem="wlU-77-KWO" secondAttribute="trailing" constant="20" id="xDZ-It-Ub5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="300" height="599"/>
+            <connections>
+                <outlet property="bannerImgView" destination="W08-dx-6aQ" id="hF7-gR-qRT"/>
+                <outlet property="descriptionLabel" destination="x0L-ea-uGh" id="bsl-Ha-4wW"/>
+                <outlet property="titleLabel" destination="zqe-2x-xR0" id="PWG-ZX-NW1"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="151.67410714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Landing_3" width="969" height="1166"/>
+    </resources>
+</document>

@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15882622555B6EA0048F367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15882612555B6EA0048F367 /* AppDelegate.swift */; };
+		B15882642555B6EA0048F367 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15882632555B6EA0048F367 /* SceneDelegate.swift */; };
+		B15882662555B6EA0048F367 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15882652555B6EA0048F367 /* OnBoardingVC.swift */; };
+		B15882692555B6EA0048F367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15882672555B6EA0048F367 /* Main.storyboard */; };
+		B158826B2555B6EC0048F367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B158826A2555B6EC0048F367 /* Assets.xcassets */; };
+		B158826E2555B6EC0048F367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B158826C2555B6EC0048F367 /* LaunchScreen.storyboard */; };
+		B15882792555B6EC0048F367 /* VrboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15882782555B6EC0048F367 /* VrboTests.swift */; };
+		B16DADF42555C0A700B97373 /* OnBoardingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DADF22555C0A700B97373 /* OnBoardingCVC.swift */; };
+		B16DADF52555C0A700B97373 /* OnBoardingCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16DADF32555C0A700B97373 /* OnBoardingCVC.xib */; };
+		B19785A02555D7B0005CB6E1 /* OnBoardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B197859F2555D7B0005CB6E1 /* OnBoardingVM.swift */; };
+		B1A1AC492559127100739E7C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A1AC482559127100739E7C /* LoginVC.swift */; };
+		B1A1AC4B2559127F00739E7C /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A1AC4A2559127F00739E7C /* LoginVM.swift */; };
+		B1A1AC502559820A00739E7C /* Onboarding-IN.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1A1AC4F2559820A00739E7C /* Onboarding-IN.plist */; };
+		B1A1AC522559822C00739E7C /* Onboarding-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1A1AC512559822C00739E7C /* Onboarding-US.plist */; };
+		B1A1AC542559823E00739E7C /* Onboarding-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1A1AC532559823E00739E7C /* Onboarding-UK.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15882752555B6EC0048F367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15882562555B6EA0048F367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B158825D2555B6EA0048F367;
+			remoteInfo = Vrbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B158825E2555B6EA0048F367 /* Vrbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vrbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15882612555B6EA0048F367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B15882632555B6EA0048F367 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B15882652555B6EA0048F367 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		B15882682555B6EA0048F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B158826A2555B6EC0048F367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B158826D2555B6EC0048F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B158826F2555B6EC0048F367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15882742555B6EC0048F367 /* VrboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VrboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15882782555B6EC0048F367 /* VrboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VrboTests.swift; sourceTree = "<group>"; };
+		B158827A2555B6EC0048F367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16DADF22555C0A700B97373 /* OnBoardingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCVC.swift; sourceTree = "<group>"; };
+		B16DADF32555C0A700B97373 /* OnBoardingCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingCVC.xib; sourceTree = "<group>"; };
+		B197859F2555D7B0005CB6E1 /* OnBoardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVM.swift; sourceTree = "<group>"; };
+		B1A1AC482559127100739E7C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B1A1AC4A2559127F00739E7C /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		B1A1AC4F2559820A00739E7C /* Onboarding-IN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Onboarding-IN.plist"; sourceTree = "<group>"; };
+		B1A1AC512559822C00739E7C /* Onboarding-US.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Onboarding-US.plist"; sourceTree = "<group>"; };
+		B1A1AC532559823E00739E7C /* Onboarding-UK.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Onboarding-UK.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B158825B2555B6EA0048F367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15882712555B6EC0048F367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15882552555B6EA0048F367 = {
+			isa = PBXGroup;
+			children = (
+				B15882602555B6EA0048F367 /* Vrbo */,
+				B15882772555B6EC0048F367 /* VrboTests */,
+				B158825F2555B6EA0048F367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B158825F2555B6EA0048F367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B158825E2555B6EA0048F367 /* Vrbo.app */,
+				B15882742555B6EC0048F367 /* VrboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15882602555B6EA0048F367 /* Vrbo */ = {
+			isa = PBXGroup;
+			children = (
+				B1A1AC4E255981CC00739E7C /* Helper */,
+				B1A1AC472559125E00739E7C /* Login */,
+				B16DADF02555C03400B97373 /* Onboarding */,
+				B15882612555B6EA0048F367 /* AppDelegate.swift */,
+				B15882632555B6EA0048F367 /* SceneDelegate.swift */,
+				B15882672555B6EA0048F367 /* Main.storyboard */,
+				B158826A2555B6EC0048F367 /* Assets.xcassets */,
+				B158826C2555B6EC0048F367 /* LaunchScreen.storyboard */,
+				B158826F2555B6EC0048F367 /* Info.plist */,
+			);
+			path = Vrbo;
+			sourceTree = "<group>";
+		};
+		B15882772555B6EC0048F367 /* VrboTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15882782555B6EC0048F367 /* VrboTests.swift */,
+				B158827A2555B6EC0048F367 /* Info.plist */,
+			);
+			path = VrboTests;
+			sourceTree = "<group>";
+		};
+		B16DADF02555C03400B97373 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B16DADF12555C05000B97373 /* Views */,
+				B15882652555B6EA0048F367 /* OnBoardingVC.swift */,
+				B197859F2555D7B0005CB6E1 /* OnBoardingVM.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B16DADF12555C05000B97373 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B16DADF22555C0A700B97373 /* OnBoardingCVC.swift */,
+				B16DADF32555C0A700B97373 /* OnBoardingCVC.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1A1AC472559125E00739E7C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1A1AC482559127100739E7C /* LoginVC.swift */,
+				B1A1AC4A2559127F00739E7C /* LoginVM.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1A1AC4E255981CC00739E7C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B1A1AC4F2559820A00739E7C /* Onboarding-IN.plist */,
+				B1A1AC512559822C00739E7C /* Onboarding-US.plist */,
+				B1A1AC532559823E00739E7C /* Onboarding-UK.plist */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B158825D2555B6EA0048F367 /* Vrbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B158827D2555B6EC0048F367 /* Build configuration list for PBXNativeTarget "Vrbo" */;
+			buildPhases = (
+				B158825A2555B6EA0048F367 /* Sources */,
+				B158825B2555B6EA0048F367 /* Frameworks */,
+				B158825C2555B6EA0048F367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vrbo;
+			productName = Vrbo;
+			productReference = B158825E2555B6EA0048F367 /* Vrbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15882732555B6EC0048F367 /* VrboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15882802555B6EC0048F367 /* Build configuration list for PBXNativeTarget "VrboTests" */;
+			buildPhases = (
+				B15882702555B6EC0048F367 /* Sources */,
+				B15882712555B6EC0048F367 /* Frameworks */,
+				B15882722555B6EC0048F367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15882762555B6EC0048F367 /* PBXTargetDependency */,
+			);
+			name = VrboTests;
+			productName = VrboTests;
+			productReference = B15882742555B6EC0048F367 /* VrboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15882562555B6EA0048F367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ashutosh Lasod";
+				TargetAttributes = {
+					B158825D2555B6EA0048F367 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					B15882732555B6EC0048F367 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B158825D2555B6EA0048F367;
+					};
+				};
+			};
+			buildConfigurationList = B15882592555B6EA0048F367 /* Build configuration list for PBXProject "Vrbo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B15882552555B6EA0048F367;
+			productRefGroup = B158825F2555B6EA0048F367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B158825D2555B6EA0048F367 /* Vrbo */,
+				B15882732555B6EC0048F367 /* VrboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B158825C2555B6EA0048F367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16DADF52555C0A700B97373 /* OnBoardingCVC.xib in Resources */,
+				B1A1AC542559823E00739E7C /* Onboarding-UK.plist in Resources */,
+				B158826E2555B6EC0048F367 /* LaunchScreen.storyboard in Resources */,
+				B158826B2555B6EC0048F367 /* Assets.xcassets in Resources */,
+				B1A1AC522559822C00739E7C /* Onboarding-US.plist in Resources */,
+				B1A1AC502559820A00739E7C /* Onboarding-IN.plist in Resources */,
+				B15882692555B6EA0048F367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15882722555B6EC0048F367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B158825A2555B6EA0048F367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A1AC4B2559127F00739E7C /* LoginVM.swift in Sources */,
+				B16DADF42555C0A700B97373 /* OnBoardingCVC.swift in Sources */,
+				B15882662555B6EA0048F367 /* OnBoardingVC.swift in Sources */,
+				B1A1AC492559127100739E7C /* LoginVC.swift in Sources */,
+				B15882622555B6EA0048F367 /* AppDelegate.swift in Sources */,
+				B15882642555B6EA0048F367 /* SceneDelegate.swift in Sources */,
+				B19785A02555D7B0005CB6E1 /* OnBoardingVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15882702555B6EC0048F367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15882792555B6EC0048F367 /* VrboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15882762555B6EC0048F367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B158825D2555B6EA0048F367 /* Vrbo */;
+			targetProxy = B15882752555B6EC0048F367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B15882672555B6EA0048F367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15882682555B6EA0048F367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B158826C2555B6EC0048F367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B158826D2555B6EC0048F367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B158827B2555B6EC0048F367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B158827C2555B6EC0048F367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B158827E2555B6EC0048F367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vrbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lasod.Vrbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B158827F2555B6EC0048F367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vrbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lasod.Vrbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B15882812555B6EC0048F367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VrboTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lasod.VrboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vrbo.app/Vrbo";
+			};
+			name = Debug;
+		};
+		B15882822555B6EC0048F367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VrboTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lasod.VrboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vrbo.app/Vrbo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15882592555B6EA0048F367 /* Build configuration list for PBXProject "Vrbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B158827B2555B6EC0048F367 /* Debug */,
+				B158827C2555B6EC0048F367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B158827D2555B6EC0048F367 /* Build configuration list for PBXNativeTarget "Vrbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B158827E2555B6EC0048F367 /* Debug */,
+				B158827F2555B6EC0048F367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15882802555B6EC0048F367 /* Build configuration list for PBXNativeTarget "VrboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15882812555B6EC0048F367 /* Debug */,
+				B15882822555B6EC0048F367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15882562555B6EA0048F367 /* Project object */;
+}

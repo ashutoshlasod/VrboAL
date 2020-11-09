@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>Pool, or no? Trip Boards help you talk about options with the group.</string>
+		<key>title</key>
+		<string>Compare and choose together</string>
+		<key>imageName</key>
+		<string>Landing_2</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Explore millions of places for you and your family to unwind in.</string>
+		<key>title</key>
+		<string>Find a dream home for everyone</string>
+		<key>imageName</key>
+		<string>Landing_1</string>
+	</dict>
+</array>
+</plist>
